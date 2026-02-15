@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "./styles/App.css";
 import TodoList from "./components/TodoList";
-import AddTodoModal from "./components/AddTodoModal";
+import AddTodoModal from "./components/ModalToDo";
 import Header from "./components/Header";
 import { getTodos, addTodo, toggleTodo } from "./services/todoService";
 
@@ -95,6 +95,12 @@ function App() {
           </div>
         </div>
       </div>
+
+      <AddTodoModal
+        show={showModal}
+        onClose={handleCloseModal}
+        onAdd={handleAddTodo}
+      />
     </div>
   );
 }

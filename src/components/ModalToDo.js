@@ -1,6 +1,5 @@
 import React, { useState, useCallback, useEffect } from "react";
-import PropTypes from "prop-types";
-import "../styles/AddTodoModal.css";
+import "../styles/ModalToDo.css";
 import { VALIDATION } from "../constants/validation";
 
 function AddTodoModal({ show, onClose, onAdd }) {
@@ -128,11 +127,4 @@ function AddTodoModal({ show, onClose, onAdd }) {
     </>
   );
 }
-
-AddTodoModal.propTypes = {
-  show: PropTypes.bool.isRequired,
-  onClose: PropTypes.func.isRequired,
-  onAdd: PropTypes.func.isRequired,
-};
-
 export default AddTodoModal;
