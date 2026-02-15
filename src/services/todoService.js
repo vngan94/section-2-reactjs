@@ -28,11 +28,3 @@ export const toggleTodo = (id) => {
   return todo;
 };
 
-export const deleteTodo = (id) => {
-  todos = todos.filter((t) => t.id !== id);
-};
-
-export const clearTodos = () => {
-  todos = [];
-  nextId = 1;
-};
