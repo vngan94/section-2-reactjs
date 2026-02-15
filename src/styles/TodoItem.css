@@ -1,0 +1,52 @@
+.list-group-item {
+  padding: 1rem 1.5rem;
+  transition: background-color 0.2s;
+  background-color: var(--color-white);
+  border-color: var(--color-light);
+}
+
+
+.list-group-item:hover {
+  background-color: var(--color-light);
+}
+
+
+.form-check-input {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  border-color: var(--color-secondary);
+}
+
+
+.form-check-input:checked {
+  background-color: var(--color-success);
+  border-color: var(--color-success);
+}
+
+
+.form-check-input:hover {
+  border-color: var(--color-success-hover);
+}
+
+
+.text-muted {
+  color: var(--color-muted) !important;
+}
+
+
+.badge.bg-success {
+  background-color: var(--color-success) !important;
+}
+
+
+.badge.bg-warning {
+  background-color: var(--color-warning) !important;
+  color: var(--color-dark);
+}
+
+
+.badge.bg-info {
+  background-color: var(--color-info) !important;
+  color: var(--color-white);
+}

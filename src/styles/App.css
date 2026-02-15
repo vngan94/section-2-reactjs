@@ -1,0 +1,66 @@
+.App {
+  min-height: 100vh;
+}
+
+
+.card {
+  border: none;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+}
+
+
+.card-header {
+  border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
+  padding: 1.5rem;
+  background-color: var(--color-primary);
+}
+
+
+.card-header:hover {
+  background-color: var(--color-primary-hover);
+}
+
+
+.card-body {
+  padding: 0;
+  background-color: var(--color-white);
+}
+
+
+.text-muted {
+  color: var(--color-muted) !important;
+}
+
+
+.text-primary {
+  color: var(--color-primary) !important;
+}
+
+
+.text-info {
+  color: var(--color-info) !important;
+}
+
+
+.spinner-border.text-primary {
+  color: var(--color-primary) !important;
+}
+
+
+.spinner-border.text-info {
+  color: var(--color-info) !important;
+}
+
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
